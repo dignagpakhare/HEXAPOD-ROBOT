@@ -31,11 +31,11 @@ The system uses a common power distribution scheme where the 7.4V battery pack s
 ### Master Schematic Overview
 Follow this pin-to-pin mapping layout precisely to establish communications:
 
-```text
-  [Battery Holder +] ──> [ Slide Switch ] ───────> ESP32-CAM (5V Pin)
-                                         └───────> PCA9685 (Power Terminal +)
-
-  [Battery Holder -] ───────────────────────────> ESP32-CAM (GND Pin)
-                                         └───────> PCA9685 (Power Terminal -)
 <img width="952" height="547" alt="image" src="https://github.com/user-attachments/assets/469aea25-64cc-47f1-9668-81caef7a3160" />
+
+<img width="3000" height="4000" alt="1000138960" src="https://github.com/user-attachments/assets/a4bea1c3-7fe3-4c63-bac4-fd4de6489620" />
+
+<img width="3000" height="4000" alt="1000138961" src="https://github.com/user-attachments/assets/f3d49d37-b060-494d-9db5-3848ead56ac8" />
+
+
 
